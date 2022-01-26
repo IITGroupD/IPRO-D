@@ -10,6 +10,7 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 ### Customer Persona (with demographics and sychographics)
 
 #### Persona 1
+![persona](pexels-pixabay-220453.jpg "johnsmith")
 **Name:** John Smith
 
 **Background:** 
