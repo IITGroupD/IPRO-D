@@ -71,17 +71,17 @@ Firebase, SQL (Postgresql, SQLite)
 6.Seller ratings/feedback from previous buyers
 7. Account login functionality
 
-## Top Two to Three Scenarios
+## Scenarios
 
-### Your Scenario #1
+### Scenario #1
 John needs a required textbook for his Psych 101 class and is not willing to pay the high prices for a new one. He is looking for a cheaper alternative which is second hand textbooks.
-### Your Scenario #2
+### Scenario #2
 Jane just finished the course Psych 101 and wanted to resell the textbook. She wants to find someone who needs it to sell it quickly and with her desired price.
-### Your Scenario #3
+### Scenario #3
 John just finished Com 101 and needs a textbook for Psych 101. Jane just finished Psych 101 and needs a textbook for Com 101. They need a place to connect and swap their books.
 
 ## Team Members
-Please create a table for the details below 
+
 
 | **Name** | **Location** | **Time zone offset from Chicago (Chicago is 0 offset)** |
 | --- | --- | --- |
