@@ -31,9 +31,7 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 
 **Name:** Jane Smith
 
-**Background:** 
-
-- Accounting student @  UIC
+**Background:** Accounting student @  UIC
 
 **Demographics:**
 
@@ -65,10 +63,10 @@ Firebase, SQL (Postgresql, SQLite)
 1. Upload listings to sell/trade textbooks
 2. Real time communication online
 3. View listings for used textbooks
-- Filter by course, quality, price, distance(?)
+ -- Filter by course, quality, price, distance
 4. Modify/delete listings
 5. Reporting system
-6.Seller ratings/feedback from previous buyers
+6. Seller ratings/feedback from previous buyers
 7. Account login functionality
 
 ## Scenarios
