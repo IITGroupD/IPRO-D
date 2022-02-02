@@ -101,4 +101,8 @@ John just finished Com 101 and needs a textbook for Psych 101. Jane just finishe
 - When we are not meeting together we will user the following tool/tech for communications: Discord
 - How will get collaborate and a friendly, professional and cohesive team (please complete the list below)
   - Be polite to each other
-  - Concern everyone opinions
+  - Consider everyone opinions
+  - Share their thoughts on the current task
+  - Finish their task piece on time with good quality
+  - Attend every team meeting
+  - Contribute their work for the team
