@@ -47,7 +47,7 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 - Provide a platform to create textbook listings to sell to other students in the area 
 
 ### Other customer(s) or stakeholder(s)
-- Bookstores
+- Administrators
  
 ## Application type (web app, mobile, website, native client, …)
 Cross Platform Mobile App
