@@ -99,7 +99,7 @@ John needs a required textbook for his Psych 101 class, and Robert needs a requi
 - If we need to meet outside of class we will use the following tool/tech for meetings: https://www.when2meet.com/?14321761-gvcPO
 - When we are not meeting together we will user the following tool/tech for communications: Discord
 - How will get collaborate and a friendly, professional and cohesive team (please complete the list below)
-  - Be polite to each other
+  - Be polite to each other (Do not speak over each other, Do not talk down on others ideas, etc)
   - Consider everyone opinions
   - Share their thoughts on the current task
   - Finish their task piece on time with good quality
