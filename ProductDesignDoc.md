@@ -106,7 +106,7 @@ John needs a required textbook for his Psych 101 class, and Robert needs a requi
   - Attend every team meeting
   - Contribute their work for the team
 
-| **Name** | **Project Manager ** |
+| **Name** | Project Manager |
 | --- | --- |
 | Sudharshana Ganeshkumar | 2/8/2022 - 2/22/2022 |
 | John Hernandez | 2/22/2022 - 3/8/2022 |
