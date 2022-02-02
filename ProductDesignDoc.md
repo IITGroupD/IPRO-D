@@ -105,3 +105,11 @@ John needs a required textbook for his Psych 101 class, and Robert needs a requi
   - Finish their task piece on time with good quality
   - Attend every team meeting
   - Contribute their work for the team
+
+| **Name** | **Project Manager ** |
+| --- | --- |
+| Sudharshana Ganeshkumar | 2/8/2022 - 2/22/2022 |
+| John Hernandez |  | 2/22/2022 - 3/8/2022 |
+| Vy Nguyen | 3/8/2022 - 3/22/2022 |
+| Yongkang Hu | 3/22/2022 - 4/5/2022 |
+| Haoran Zhang | 4/5/2022 - 4/19/2022 |	
