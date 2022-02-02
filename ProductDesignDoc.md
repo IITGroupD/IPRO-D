@@ -40,11 +40,29 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 
 - Age: 36
 
-**Goal:** Looking to sell his used textbooks and earn some quick cash.
+**Goal:** Looking to sell his used textbooks and earn some quick cash. Then to get textbooks for a cheaper price. 
 
 **How we can help** :
 
-- Provide a platform to create textbook listings to sell to other students in the area 
+- Provide a platform to create textbook listings to sell to other students in the area and also help him get textbooks for a cheaper price from other sellers. 
+
+
+#### Persona 3
+<img src="https://media.thetab.com/blogs.dir/90/files/2020/10/eiddclywsamofb9-819x1024.jpeg" width="350" height="350">
+
+**Name:** Michael Jordan
+
+**Background:** Accounting student @  UIC
+
+**Demographics:**
+
+- Age: 22
+
+**Goal:** Looking to trade textbooks with other students for free.
+
+**How we can help** :
+
+- Provide a platform for him to claim his needed textbook and his willing-to-trade books. 
 
 ### Other customer(s) or stakeholder(s)
 - Administrators
@@ -105,11 +123,3 @@ John needs a required textbook for his Psych 101 class, and Robert needs a requi
   - Finish their task piece on time with good quality
   - Attend every team meeting
   - Contribute their work for the team
-
-| **Name** | Project Manager |
-| --- | --- |
-| Sudharshana Ganeshkumar | 2/8/2022 - 2/22/2022 |
-| John Hernandez | 2/22/2022 - 3/8/2022 |
-| Vy Nguyen | 3/8/2022 - 3/22/2022 |
-| Yongkang Hu | 3/22/2022 - 4/5/2022 |
-| Haoran Zhang | 4/5/2022 - 4/19/2022 |	
