@@ -21,7 +21,7 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 
 **Demographics:**
 
-- Age: 20
+- Age: 18
 
 **Goal:** Get textbooks at cheaper prices
 
@@ -48,7 +48,7 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 
 
 #### Persona 3
-<img src="https://media.thetab.com/blogs.dir/90/files/2020/10/eiddclywsamofb9-819x1024.jpeg" width="350" height="350">
+<img src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" width="500" height="350">
 
 **Name:** Michael Jordan
 
@@ -56,7 +56,7 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 
 **Demographics:**
 
-- Age: 22
+- Age: 23
 
 **Goal:** Looking to trade textbooks with other students for free.
 
