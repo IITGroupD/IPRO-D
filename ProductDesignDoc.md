@@ -75,7 +75,7 @@ Firebase, SQL (Postgresql, SQLite)
 ### Scenario #1
 John needs a required textbook for his Psych 101 class and is not willing to pay the high prices for a new one. He is looking for a cheaper alternative which is second hand textbooks.
 ### Scenario #2
-Jane just finished the course Psych 101 and wanted to resell the textbook. She wants to find someone who needs it to sell it quickly and with her desired price.
+Jane just finished the course Psych 101 and wanted to resell the textbook. She wants to find someone who needs it to sell it quickly and with her desired price. She can sign up to our app or sign in if she has an account already. She can post some pictures of the Psych 101 textbook and describe it in a few words. Then she can list the price for the book. 
 ### Scenario #3
 John just finished Com 101 and needs a textbook for Psych 101. Jane just finished Psych 101 and needs a textbook for Com 101. They need a place to connect and swap their books.
 
@@ -97,10 +97,6 @@ John just finished Com 101 and needs a textbook for Psych 101. Jane just finishe
 - If we need to meet outside of class we have found a mutually agreeable time at: Decided per week
 - If we need to meet outside of class we will use the following tool/tech for meetings: https://www.when2meet.com/?14321761-gvcPO
 - When we are not meeting together we will user the following tool/tech for communications: Discord
-- How will get collaborate and a friendly, professional and cohesive team:
-  - Be polite to each other
-  - Consider and respect everyone opinions
-  - Share their thoughts on the current task
-  - Finish their task piece on time with good quality
-  - Attend every team meeting
-  - Contribute their work for the team
+- How will get collaborate and a friendly, professional and cohesive team (please complete the list below)
+  - Be polite to each other 
+  - Consider everyone's opinions
