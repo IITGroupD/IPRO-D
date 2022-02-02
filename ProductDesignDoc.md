@@ -82,7 +82,7 @@ Firebase, SQL (Postgresql, SQLite)
 ## Top Application Capabilities (name at least 5)
 
 1. Upload listings to sell/trade textbooks
-2. Real time communication online
+2. Displaying contact information of sellers and buyers. 
 3. View listings for used textbooks
  -- Filter by course, quality, price, distance
 4. Modify/delete listings
