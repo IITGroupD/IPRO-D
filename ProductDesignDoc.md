@@ -10,7 +10,8 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 ### Customer Persona (with demographics and sychographics)
 
 #### Persona 1
-![persona](pexels-pixabay-220453.jpg "johnsmith")
+<img src="https://i.kym-cdn.com/entries/icons/facebook/000/036/372/C50802FE-85D7-41AB-8A7B-5825D000D121.jpg" width="350" height="200">
+
 **Name:** John Smith
 
 **Background:** 
@@ -29,16 +30,17 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 
 
 #### Persona 2
+<img src="https://media.thetab.com/blogs.dir/90/files/2020/10/eiddclywsamofb9-819x1024.jpeg" width="350" height="350">
 
-**Name:** Jane Smith
+**Name:** Robert Jones
 
 **Background:** Accounting student @  UIC
 
 **Demographics:**
 
-- Age: 24
+- Age: 36
 
-**Goal:** Looking to sell her used textbooks and earn some quick cash.
+**Goal:** Looking to sell his used textbooks and earn some quick cash.
 
 **How we can help** :
 
@@ -75,7 +77,7 @@ Firebase, SQL (Postgresql, SQLite)
 ### Scenario #1
 John needs a required textbook for his Psych 101 class and is not willing to pay the high prices for a new one. He is looking for a cheaper alternative which is second hand textbooks.
 ### Scenario #2
-Jane just finished the course Psych 101 and wanted to resell the textbook. She wants to find someone who needs it to sell it quickly and with her desired price. She can sign up to our app or sign in if she has an account already. She can post some pictures of the Psych 101 textbook and describe it in a few words. Then she can list the price for the book. 
+Jane just finished the course Psych 101 and wanted to resell the textbook. She wants to find someone who needs it to sell it quickly and with her desired price.
 ### Scenario #3
 John just finished Com 101 and needs a textbook for Psych 101. Jane just finished Psych 101 and needs a textbook for Com 101. They need a place to connect and swap their books.
 
@@ -98,5 +100,5 @@ John just finished Com 101 and needs a textbook for Psych 101. Jane just finishe
 - If we need to meet outside of class we will use the following tool/tech for meetings: https://www.when2meet.com/?14321761-gvcPO
 - When we are not meeting together we will user the following tool/tech for communications: Discord
 - How will get collaborate and a friendly, professional and cohesive team (please complete the list below)
-  - Be polite to each other 
-  - Consider everyone's opinions
+  - Be polite to each other
+  - Concern everyone opinions
