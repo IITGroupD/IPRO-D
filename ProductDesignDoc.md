@@ -68,16 +68,16 @@ College students who want to buy/sell/trade textbooks within a set radius decide
 - Administrators
  
 ## Application type (web app, mobile, website, native client, …)
-Cross Platform Mobile App
+Web app
 
 ### Tech stack
-React-Native
+Mern stack
 
 #### Client Tech 
-Mobile devices
+Mobile browser, Web browser
 
 #### Server Tech
-Firebase, SQL (Postgresql, SQLite)
+MongoDB, Node
 
 ## Top Application Capabilities (name at least 5)
 
@@ -93,11 +93,11 @@ Firebase, SQL (Postgresql, SQLite)
 ## Scenarios
 
 ### Scenario #1
-Robert just finished the course Psych 101 and wanted to resell the textbook. He wants to find someone who needs it to sell it quickly and with his desired price.  He can post some pictures of the Psych 101 textbook, describe it in a few words, and list the price of the book.Thus, people who have join BookBarter can find and buy book from him.
+Robert just finished the course Psych 101 and wanted to resell the textbook. He wants to find someone who needs it to sell it quickly and with his desired price. He can sign up to the app BookBarter or sign in if he has an account already. Then he can post some pictures of the Psych 101 textbook, describe it in a few words, and list the price of the book.Thus, people who have join BookBarter can find and buy book from him.
 ### Scenario #2
-John needs a required textbook for his Psych 101 class and is not willing to pay the high prices for a new one. He is looking for a cheaper alternative than from retailers. John filters student listings for his textbook. He sees a cheaper listing and contacts the seller to make arrangements on where to meet to exchange the book. The seller removes his listing after the exchange and John can choose to leave a review on the seller's account.
+John needs a required textbook for his Psych 101 class and is not willing to pay the high prices for a new one. He is looking for a cheaper alternative than from retailers. John makes an account on BookBarter and filters student listings for his textbook. He sees a cheaper listing and contacts the seller to make arrangements on where to meet to exchange the book. The seller removes his listing after the exchange and John can choose to leave a review on the seller's account.
 ### Scenario #3
-John needs a required textbook for his Psych 101 class, and Robert needs a required textbook for Com 101. Luckly, they both have the required textbooks for each other. They both used BookBarter and went on textbook trading function with their needed books and their owned books. Instead of buying new textbooks, John and Robert finaly met on BookBarter and would agree to exchange their needed textbooks for free. 
+John needs a required textbook for his Psych 101 class, and Robert needs a required textbook for Com 101. Luckly, they both have the required textbooks for each other. They both signed up on BookBarter and went on textbook trading function with their needed books and their owned books. Instead of buying new textbooks, John and Robert finaly met on BookBarter and would agree to exchange their needed textbooks for free. 
 ## Team Members
 
 
