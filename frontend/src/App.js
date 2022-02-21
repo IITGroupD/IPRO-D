@@ -4,6 +4,8 @@ import Post from './Post';
 import Display from './Display';
 import SearchBar from './SearchBar';
 import Filter from './Filter';
+import books from './modules/books'
+
 function App() {
   return (
     <div className="App">
