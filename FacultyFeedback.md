@@ -20,6 +20,12 @@
 	- what are the blockers (if any)
   
 ## Week 6 ##
+- Please be ready when the faculty member appears to walk the board
+- Please get backend onto the board
+- Populate stories for scenario #1
+- Tag user stories for scenario #1
+- Make sure you are doing just enough design for 
+- Make sure everyone has work on the board
 
 ## Week 7 ##
 
