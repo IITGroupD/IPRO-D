@@ -19,7 +19,7 @@ function App() {
     <Post />
     <SearchBar />
     <Filter />
-    <Display books={books}/>
+    <Display books={bookList}/>
     </div>
   );
 }
