@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useState} from "react";
+import {FilterSlider} from "./FilterSlider";
+const App = () => {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let initValue = 0
+  let initDistance = 0
+
+  const [value, setValue] = useState(initValue);
+  const [distance, setDistance] = useState(initDistance);
+  const handleChange = event =>{
+  
+      setValue(event.target.value)
+      console.log(value)
+    
+  }
+
+
+  const handleChangeDistance = event =>{
+  
+    setValue(event.target.value)
+    console.log(value)
+  
 }
+  
+  return (
+    <>
+      <div className="App">
+        
+        <FilterSlider
+        
+          initValue = {0}
+          minValue = {-100}
+          maxValue = {100}
+          handleChange = {handleChange}
+          />
+
+        <FilterSlider
+        
+        initValue = {0}
+        minValue = {-100}
+        maxValue = {100}
+        handleChange = {handleChangeDistance}
+        />
+
+          
+        
+      </div>
+    </>
+  );
+};
 
 export default App;
