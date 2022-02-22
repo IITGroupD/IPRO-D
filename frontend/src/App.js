@@ -1,14 +1,14 @@
 import './App.css';
-import Post from './Post';
-import Display from './Display';
-import SearchBar from './SearchBar';
-import FilterSlider from "./FilterSlider";
-import Filter from './Filter';
+import Post from './components/Post';
+import Display from './components/Display';
+import SearchBar from './components/SearchBar';
+import FilterSlider from "./components/FilterSlider";
+import Filter from './components/Filter';
 import books from './modules/books'
 import React, { useState, useEffect } from 'react'
 
 function App() {
-  const [ bookList, setBookList] = useState([])
+  const [bookList, setBookList] = useState([])
   const [value, setValue] = useState(0);
   const [distance, setDistance] = useState(0);
   
