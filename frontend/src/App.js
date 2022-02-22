@@ -2,17 +2,16 @@ import './App.css';
 import Post from './Post';
 import Display from './Display';
 import SearchBar from './SearchBar';
-import {FilterSlider} from "./FilterSlider";
+import FilterSlider from "./FilterSlider";
 import Filter from './Filter';
 import books from './modules/books'
 import React, { useState, useEffect } from 'react'
 
 function App() {
   const [ bookList, setBookList] = useState([])
-  const [value, setValue] = useState(initValue);
-  const [distance, setDistance] = useState(initDistance);
-  let initValue = 0
-  let initDistance = 0
+  const [value, setValue] = useState(0);
+  const [distance, setDistance] = useState(0);
+  
   
   useEffect(() => {
     books.getAll()
@@ -24,8 +23,7 @@ function App() {
   }
   
   const handleChangeDistance = event =>{
-    setValue(event.target.value)
-    console.log(value)
+    setDistance(event.target.value)
   }
   
   return (

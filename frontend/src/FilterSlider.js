@@ -1,13 +1,6 @@
-import React, { useState} from "react";
+import React from "react";
 // need to import the component of listing
-const FilterSlider = ({
-    initValue = 0,
-    minValue = -100,
-    maxValue = 100,
-    handleChange = handleChange
-}) => {
-
-   
+const FilterSlider = ({initValue, minValue, maxValue, handleChange}) => {
     return (
         <>
             {minValue}
@@ -25,4 +18,4 @@ const FilterSlider = ({
     );
 };
 
-export { FilterSlider};
+export default FilterSlider;
