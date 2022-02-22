@@ -1,4 +1,8 @@
 import './App.css';
+import Post from './Post';
+import Display from './Display';
+import SearchBar from './SearchBar';
+import Filter from './Filter';
 import books from './modules/books'
 import React, { useState, useEffect } from 'react'
 function App() {
@@ -12,6 +16,10 @@ function App() {
     
     <div className="App">
       {console.log(bookList)}
+    <Post />
+    <SearchBar />
+    <Filter />
+    <Display />
     </div>
   );
 }
