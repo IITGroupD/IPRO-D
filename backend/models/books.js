@@ -19,6 +19,21 @@ mongoose.connect(url)
     },
     'price': {
       type: String
+    },
+    'author' : {
+      type: String
+    },
+    'year': {
+      type: Number
+    },
+    'location': {
+      type: Number
+    },
+    'quality': {
+      type: String
+    },
+    'image': {
+      type: String
     }
   })
 
