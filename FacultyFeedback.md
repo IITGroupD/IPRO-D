@@ -28,6 +28,9 @@
 - Make sure everyone has work on the board
 
 ## Week 7 ##
+- Check out [Github flow] (https://docs.github.com/en/get-started/quickstart/github-flow)
+- Consider Github flow rather than forks
+- Good progress keep it going!
 
 ## Week 8 ##
 
