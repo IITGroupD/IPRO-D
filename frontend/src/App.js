@@ -29,16 +29,10 @@ function App() {
   return (
     <div className="App">
       {console.log(bookList)}
-<<<<<<< HEAD
-    <Post />
-    <SearchBar />
-    <Filter />
-    <Display books={bookList}/>
-=======
       <Post />
       <SearchBar />
       <Filter />
-      <Display />
+      <Display  books={bookList}/>
       <FilterSlider
           initValue = {0}
           minValue = {-100}
@@ -51,7 +45,6 @@ function App() {
         maxValue = {100}
         handleChange = {handleChangeDistance}
       />
->>>>>>> d3a22607dbd8f2203542605a87b3586b88a68460
     </div>
   );
 };
