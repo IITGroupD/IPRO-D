@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 app.use(express.json())
+var morgan = require('morgan')
+app.use(morgan('tiny'))
 const cors = require('cors')
 app.use(cors())
 require('dotenv').config()
