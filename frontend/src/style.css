@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    box-shadow: 0px 2px #d4d3d3;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    cursor: pointer;
+    color: #3adb78;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+#searchbar{
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: #333333;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger{
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: #333333;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.nav-links{
+    position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 10vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+}
+.nav-links li{
+    opacity: 0;
+}
+.burger{
+    display: block;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade{
+    from {
+        opacity: 0;
+        transform: translateX(50px)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 0px  #d4d3d3;
+    border: 1px solid #333333 ;
+    height: 80vh;
+    margin: 20px;
+    padding: 0 20px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.listings{
+    display: grid;
+    margin: 20px 40px 40px 0px;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cover{
+    width: 100%;
+}
+.post{
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #333333;
+    background-color: white;
+    color: #333333;
+    position: absolute;
+        right: 50px;
+        bottom: 50px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+}
