@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="%SRC_URL%/style.css" />
 
     <title>Home</title>
   </head>
@@ -14,8 +14,14 @@
         <div class="logo">
             <img src="image/image.png" style="height: 100px;"/>
         </div>
+      
+      <!-- This is the search bar -->
+      
         <input id="searchbar" onkeyup="search_animal()" type="text"
         name="search" placeholder="Search books..">
+      
+      <!-- This is navbar -->
+      
         <ul class="nav-links">
             <li>
                 <a href="#">Setting</a>
@@ -34,6 +40,9 @@
             </li>
             
         </ul>
+      
+      <!-- This is the hamburger -->
+      
         <div class="burger">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -41,6 +50,9 @@
             
         </div>
     </nav>
+    
+      <!-- This is the box on the left for the filter -->
+      
     <div class="grid-wrapper">
         <div class="filter">
             <div class="distance">
@@ -52,7 +64,9 @@
                 <input type="range" min="1" max="100" value="50">
             </div>
         </div>
-
+  
+      <!-- This is the display of the listings -->
+      
         <div class="listings">
             <div class="item">
                 <div class="cover">
@@ -62,32 +76,10 @@
                     <p> Physic ..........</p>
                 </div>
             </div>
-            <div class="item">
-                <div class="cover">
-                    <img src="image/61KZfvvD6hL.jpg" style="height: 200px;"/>
-                </div>
-                <div class="info">
-                    <p> Physic ..........</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="cover">
-                    <img src="image/61KZfvvD6hL.jpg" style="height: 200px;"/>
-                </div>
-                <div class="info">
-                    <p> Physic .......... hola hola............ </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="cover">
-                    <img src="image/61KZfvvD6hL.jpg" style="height: 200px;"/>
-                </div>
-                <div class="info">
-                    <p> Physic ...</p>
-                </div>
-            </div>
+            
+        
         </div>
-    </div>
-    <script src="app.js"></script>
+    </div>  rel="manifest" href="%PUBLIC_URL%/manifest.json"
+    <script src="%SRC_URL%/components/slideBar.js"></script>
   </body>
 </html>
