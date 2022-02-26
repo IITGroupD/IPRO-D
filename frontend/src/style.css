@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+                                                /* This is the navbar */
 nav{
     display: flex;
     justify-content: space-around;
@@ -17,7 +18,7 @@ nav{
     letter-spacing: 4px;
     font-size: 25px;
 }
-
+                                                /* This is the search bar */
 #searchbar{
     margin-left: 15%;
     padding:15px;
@@ -29,6 +30,7 @@ nav{
      -webkit-transition: width 0.15s ease-in-out;
      transition: width 0.15s ease-in-out;
   }
+                                            /* This is end of search bar */
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -45,6 +47,7 @@ nav{
     font-weight: bold;
     font-size: 14px;
 }
+                                                        /* This is the burger */
 .burger{
     cursor: pointer;
 }
@@ -115,19 +118,23 @@ nav{
     text-align: center;
     justify-content: space-around;
 }
+                                        /* This is the listing display. the entire box */
 .listings{
     display: grid;
     margin: 20px 40px 40px 0px;
     padding: 0 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+                                        /* This is individual book */
 .item{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+                                        /* This is the picture */
 .cover{
     width: 100%;
 }
+                                        /* This is the information or discription of the book */
 .post{
     border-width: 1px;
     border-radius: 3px;
