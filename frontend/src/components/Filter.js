@@ -6,7 +6,7 @@ export default function Filter(props){
     return(
         <div className="filter">
             <FilterSlider 
-                initValue = {0}
+                initValue = {100}
                 minValue = {0}
                 maxValue = {100}
                 handleChange = {handleChange}
