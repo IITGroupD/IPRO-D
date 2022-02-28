@@ -1,4 +1,5 @@
 import React from "react";
+import './FilterSlider.css'
 // need to import the component of listing
 const FilterSlider = ({initValue, minValue, maxValue, handleChange}) => {
     return (

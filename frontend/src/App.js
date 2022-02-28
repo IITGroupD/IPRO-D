@@ -27,7 +27,7 @@ function App() {
   }
   
   return (
-    <div className="App">
+    <div className="grid-wrapper">
       {console.log(bookList)}
       <Post />
       <SearchBar />
