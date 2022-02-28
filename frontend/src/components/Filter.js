@@ -1,8 +1,9 @@
 import React from 'react'
+import './Filter.css'
 export default function Filter(){
     return(
-        <div className="Filter">
-
+        <div className="filter">
+            
         </div>
     );
 }

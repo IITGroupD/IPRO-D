@@ -1,0 +1,6 @@
+.listings{
+  display: grid;
+  margin: 20px 40px 40px 0px;
+  padding: 0 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
