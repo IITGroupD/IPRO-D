@@ -34,7 +34,10 @@ function App() {
         handleChangeDistance={handleChangeDistance}
         handleChange={handleChange}
       />
-      <Display  books={bookList}/>
+      <Display 
+        books={bookList}
+        value={value}
+      />
     </div>
   );
 };
