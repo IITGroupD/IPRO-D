@@ -2,7 +2,6 @@ import './App.css';
 import Post from './components/Post';
 import Display from './components/Display';
 import SearchBar from './components/SearchBar';
-import FilterSlider from "./components/FilterSlider";
 import Filter from './components/Filter';
 import books from './modules/books'
 import React, { useState, useEffect } from 'react'
@@ -31,20 +30,11 @@ function App() {
       {console.log(bookList)}
       <Post />
       <SearchBar />
-      <Filter />
+      <Filter 
+        handleChangeDistance={handleChangeDistance}
+        handleChange={handleChange}
+      />
       <Display  books={bookList}/>
-      <FilterSlider
-          initValue = {0}
-          minValue = {-100}
-          maxValue = {100}
-          handleChange = {handleChange}
-      />
-      <FilterSlider
-        initValue = {0}
-        minValue = {-100}
-        maxValue = {100}
-        handleChange = {handleChangeDistance}
-      />
     </div>
   );
 };
