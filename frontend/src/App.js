@@ -8,7 +8,7 @@ import React, { useState, useEffect } from 'react'
 
 function App() {
   const [bookList, setBookList] = useState([])
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(100);
   const [distance, setDistance] = useState(0);
   
   
@@ -34,7 +34,10 @@ function App() {
         handleChangeDistance={handleChangeDistance}
         handleChange={handleChange}
       />
-      <Display  books={bookList}/>
+      <Display 
+        books={bookList}
+        value={value}
+      />
     </div>
   );
 };
