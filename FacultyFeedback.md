@@ -33,6 +33,9 @@
 - Good progress keep it going!
 
 ## Week 8 ##
+- Check out [Github flow] (https://docs.github.com/en/get-started/quickstart/github-flow)
+- Good start for your demo in that you have running front end and backend
+- Add stories to backlog to complete scenario #1 and tag them so you know what needs to done to complete scenario #1
 
 ## Week 9 ##
 
