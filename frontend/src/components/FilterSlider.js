@@ -4,7 +4,6 @@ import './FilterSlider.css'
 const FilterSlider = ({initValue, minValue, maxValue, handleChange}) => {
     return (
         <div>
-        
             {minValue}
             <input
             type = "range"
@@ -15,7 +14,6 @@ const FilterSlider = ({initValue, minValue, maxValue, handleChange}) => {
             //need to add value = {listing value} here
             onMouseUp = {handleChange}/>
             {maxValue}
-
         </div>
     );
 };
