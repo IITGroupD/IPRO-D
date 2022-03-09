@@ -3,8 +3,10 @@ import Post from './components/Post';
 import Display from './components/Display';
 import SearchBar from './components/SearchBar';
 import Filter from './components/Filter';
-import books from './modules/books'
-import React, { useState, useEffect } from 'react'
+import books from './modules/books';
+import React, { useState, useEffect } from 'react';
+import logo from '../public/bb.png';
+
 
 function App() {
   const [bookList, setBookList] = useState([])
@@ -12,6 +14,8 @@ function App() {
   const [distance, setDistance] = useState(0);
   
   
+
+
   useEffect(() => {
     books.getAll()
       .then(books => setBookList(books))
@@ -28,7 +32,9 @@ function App() {
   return (
     <div className="grid-wrapper">
       {console.log(bookList)}
-      <Post />
+      <img src = {logo} alt = "Logo"/>
+      <Post setBookList = {setBookList}
+            bookList = {bookList}/>
       <SearchBar />
       <Filter 
         handleChangeDistance={handleChangeDistance}
