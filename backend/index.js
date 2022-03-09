@@ -36,6 +36,14 @@ app.post('/api/books', (req, res) => {
     .catch(error => console.log(error))
 })
 
+app.delete('/api/books', (req, res) => {
+  Book.findByIdAndRemove(req.params.id)
+    .then(()=> {
+      res.status(204)
+    })
+    .catch(error => console.log(error))
+})
+
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
