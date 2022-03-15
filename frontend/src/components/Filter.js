@@ -1,6 +1,7 @@
 import React from 'react'
 import './Filter.css'
 import FilterSlider from './FilterSlider';
+
 export default function Filter(props){
     const { handleChange, handleChangeDistance } = props
     return(
@@ -13,7 +14,7 @@ export default function Filter(props){
                 />
             <FilterSlider 
                 initValue = {0}
-                minValue = {-100}
+                minValue = {0}
                 maxValue = {100}
                 handleChange = {handleChangeDistance}
             />

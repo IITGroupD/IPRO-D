@@ -5,13 +5,12 @@ import SearchBar from './components/SearchBar';
 import Filter from './components/Filter';
 import books from './modules/books';
 import React, { useState, useEffect } from 'react';
-import logo from '../public/bb.png';
 
 
 function App() {
   const [bookList, setBookList] = useState([])
   const [value, setValue] = useState(100);
-  const [distance, setDistance] = useState(0);
+  const [distance, setDistance] = useState(100);
   
   
 
@@ -22,17 +21,17 @@ function App() {
   }, [])
   
   const handleChange = event =>{
-    setValue(event.target.value)
+    setValue(parseInt(event.target.value))
   }
   
   const handleChangeDistance = event =>{
-    setDistance(event.target.value)
+    setDistance(parseInt(event.target.value))
   }
   
   return (
     <div className="grid-wrapper">
       {console.log(bookList)}
-      <img src = {logo} alt = "Logo"/>
+      <img src = {'/bb.png'} alt = "Logo"/>
       <Post setBookList = {setBookList}
             bookList = {bookList}/>
       <SearchBar />
@@ -43,6 +42,8 @@ function App() {
       <Display 
         books={bookList}
         value={value}
+        distance={distance}
+        placeholderZip={60616}
       />
     </div>
   );
