@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar';
 import Filter from './components/Filter';
 import books from './modules/books';
 import React, { useState, useEffect } from 'react';
-import logo from '../public/bb.png';
+import logo from './bb.png';
 
 
 function App() {
@@ -30,9 +30,11 @@ function App() {
   }
   
   return (
+    
+         
     <div className="grid-wrapper">
       {console.log(bookList)}
-      <img src = {logo} alt = "Logo"/>
+      
       <Post setBookList = {setBookList}
             bookList = {bookList}/>
       <SearchBar />
@@ -45,6 +47,7 @@ function App() {
         value={value}
       />
     </div>
+    
   );
 };
 
