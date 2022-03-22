@@ -16,7 +16,7 @@ function Post({setBookList, bookList}) {
   }
 
   const onFileSelected = (event) => {
-    console.log(event.target.files[0])
+    console.log("New picture uploaded: ", event.target.files[0])
     setSelectedFile(event.target.files[0])
   }
 
@@ -35,7 +35,7 @@ function Post({setBookList, bookList}) {
       image: selectedFile
     }
     console.log(bookObj)
-    
+
     books
     .create(bookObj)
     .then(book => {
