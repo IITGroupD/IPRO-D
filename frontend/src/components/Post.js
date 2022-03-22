@@ -4,15 +4,20 @@ import books from '../modules/books'
 function Post({setBookList, bookList}) {
   const [newBookname, setBookname] = useState('')
   const [newBookprice, setnewBookprice] = useState('')
-
+  const [selectedFile, setSelectedFile] = useState(null)
 
   const handleChangeBookname = (event) => {
-    console.log(event.target.value)
+    
     setBookname(event.target.value)
   }
   const handleChangeBookprice = (event) => {
-    console.log(event.target.value)
+    
     setnewBookprice(event.target.value)
+  }
+
+  const onFileSelected = (event) => {
+    console.log("New picture uploaded: ", event.target.files[0])
+    setSelectedFile(event.target.files[0])
   }
 
 
@@ -27,8 +32,9 @@ function Post({setBookList, bookList}) {
       year: 1978,
       location: 123456,
       quality: 'good',
-      image: 'dummy image'
+      image: selectedFile
     }
+    console.log(bookObj)
 
     books
     .create(bookObj)
@@ -49,6 +55,12 @@ function Post({setBookList, bookList}) {
         <label>
           Price:
           <input type="text" value={newBookprice} onChange={handleChangeBookprice} />
+        </label>
+        </div>
+        <div>
+        <label>
+          Picture:
+          <input type="file"  onChange={onFileSelected} />
         </label>
         </div>
         <input type="submit" value="Submit" />
