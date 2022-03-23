@@ -43,11 +43,33 @@ app.post('/api/books', (req, res) => {
     .catch(error => console.log(error))
 })
 
-app.delete('/api/books', (req, res) => {
+app.delete('/api/books/:id', (req, res) => {
   Book.findByIdAndRemove(req.params.id)
     .then(()=> {
-      res.status(204)
+      res.status(204).end()
     })
+    .catch(error => console.log(error))
+})
+
+app.put('/api/books/:id', (req, res) => {
+  const body = req.body
+  console.log(req.body)
+  Book.findByIdAndUpdate({ _id: req.params.id }, 
+    { 
+      "$set": {
+        sellerName: body.sellerName,
+        bookName: body.bookName,
+        price: body.price,
+        author: body.author,
+        year: body.year,
+        location: body.location,
+        quality: body.quality,
+        image: body.image
+      } 
+    }, { new: true })
+    .then(updatedContact =>
+      res.json(updatedContact)
+    )
     .catch(error => console.log(error))
 })
 

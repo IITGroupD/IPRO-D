@@ -17,6 +17,11 @@ const remove = id => {
   return response.then(response => response.data)
 }
 
-const moduleExport = { getAll, create, remove }
+const update = newBook => {
+  const response = axios.put(`${baseUrl}/${newBook.id}`, newBook)
+  return response.then(response => response.data)
+}
+
+const moduleExport = { getAll, create, remove, update }
 
 export default moduleExport
