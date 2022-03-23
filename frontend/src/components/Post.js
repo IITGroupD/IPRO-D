@@ -4,10 +4,10 @@ import books from '../modules/books'
 function Post({setBookList, bookList}) {
   const [newBookname, setBookname] = useState('')
   const [newBookprice, setnewBookprice] = useState('')
-  const [selectedFile, setSelectedFile] = useState(null)
+ 
 
   const handleChangeBookname = (event) => {
-    
+    console.log("book selected: ", event.target.value)
     setBookname(event.target.value)
   }
   const handleChangeBookprice = (event) => {
@@ -15,10 +15,7 @@ function Post({setBookList, bookList}) {
     setnewBookprice(event.target.value)
   }
 
-  const onFileSelected = (event) => {
-    console.log("New picture uploaded: ", event.target.files[0])
-    setSelectedFile(event.target.files[0])
-  }
+ 
 
 
 
@@ -32,7 +29,7 @@ function Post({setBookList, bookList}) {
       year: 1978,
       location: 123456,
       quality: 'good',
-      image: selectedFile
+      image: "img"
     }
     console.log(bookObj)
 
@@ -49,7 +46,12 @@ function Post({setBookList, bookList}) {
         <form onSubmit={addBook}>
         <label>
           Book Name:
-          <input type="text" value={newBookname} onChange={handleChangeBookname} />
+          <select name="selectList" value={newBookname} onChange={handleChangeBookname} >
+            <option value = ""></option>
+            <option value = "book1">book1</option>
+            <option value = "book2">book2</option>
+            <option value = "book3">book3</option>
+            </select>
         </label>
         <div>
         <label>
@@ -58,10 +60,6 @@ function Post({setBookList, bookList}) {
         </label>
         </div>
         <div>
-        <label>
-          Picture:
-          <input type="file"  onChange={onFileSelected} />
-        </label>
         </div>
         <input type="submit" value="Submit" />
       </form>   
