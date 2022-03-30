@@ -52,6 +52,12 @@
 - Hard coded logins is good idea, but you want to track as technical debt by creating a todo story
 
 ## Week 12 ##
+- Make sure activities for audience choice and various other deadlines I shared in email are represented on your board
+- Haoran #53 finish 53 and #54 work in progress
+- John #11 and #41 in progress
+- Vy VU #36 work in progress 
+- Yongkang #51 working progress
+
 
 ## Week 13 ##
 
