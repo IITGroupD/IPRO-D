@@ -52,7 +52,7 @@ function App() {
   
   return (
     <div className="grid-wrapper">
-      <img src = {'/bb.png'} alt = "Logo"/>
+      <img src = {'/bb_1.png'} alt = "Logo"/>
       {loginData && <Post setBookList={setBookList} bookList={bookList} loginData={loginData}/>}
       <SearchBar />
       {loginData 
