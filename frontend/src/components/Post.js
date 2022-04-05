@@ -44,9 +44,13 @@ function Post({setBookList, bookList, loginData}) {
           Book Name:
           <select name="selectList" value={newBookname} onChange={handleChangeBookname} >
             <option value = ""></option>
-            <option value = "book1">book1</option>
-            <option value = "book2">book2</option>
-            <option value = "book3">book3</option>
+            <option value = "2938 Turncoat">2938 Turncoat</option>
+            <option value = "Elysium Firing">Elysium Firing</option>
+            <option value = "Equinox of Kaus">Equinox of Kaus</option>
+            <option value = "Mark of Terror">Mark of Terror</option>
+            <option value = "Mister Nice">Mister Nice</option>
+            <option value = "Sealed with a Kiss">Sealed with a Kiss</option>
+            <option value = "Storms of Solaris">Storms of Solaris</option>
             </select>
         </label>
         <div>

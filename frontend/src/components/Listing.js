@@ -13,6 +13,10 @@ export default function Listing(props){
             <h3>{book.bookName}</h3>
             <h4>Price: {book.price}</h4>
             <h4>Seller: {book.sellerName}</h4>
+            <img
+                src={`/${book.bookName.toLowerCase()}.JPG`}
+                width  = "100" height = "100"
+            />
         </div>
     );
 }
