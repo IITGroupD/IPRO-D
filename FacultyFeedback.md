@@ -46,8 +46,18 @@
 ## Week 10 ##
 
 ## Week 11 ##
+- We are not doing  innovation day (4/29) instead we are doing to Audience Choice Competition - pitch competition day on (4/22)
+- Make sure you reload your todo list from scenarios
+- Perhaps not putting images in the database makes sense
+- Hard coded logins is good idea, but you want to track as technical debt by creating a todo story
 
 ## Week 12 ##
+- Make sure activities for audience choice and various other deadlines I shared in email are represented on your board
+- Haoran #53 finish 53 and #54 work in progress
+- John #11 and #41 in progress
+- Vy VU #36 work in progress 
+- Yongkang #51 working progress
+
 
 ## Week 13 ##
 

@@ -33,7 +33,7 @@ mongoose.connect(url)
       type: String
     },
     'image': {
-      type: String
+      type:String
     }
   })
 
