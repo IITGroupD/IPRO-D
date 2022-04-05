@@ -14,6 +14,9 @@ mongoose.connect(url)
     'sellerName': {
       type: String
     },
+    'email': {
+      type: String
+    },
     'bookName': {
       type: String
     },
