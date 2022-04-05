@@ -17,6 +17,15 @@ function App() {
     books.getAll()
       .then(books => setBookList(books))
   }, [])
+
+  const handleDelete = id => {
+    books.remove(id)
+      .then(() => setBookList(bookList.filter(book => book.id !== id)))
+      .catch(e => {
+        alert('Error: delete not successful')
+        console.log(e)
+      })
+  } 
   
   const handleChange = event =>{
     setValue(parseInt(event.target.value))
@@ -75,6 +84,8 @@ function App() {
         value={value}
         distance={distance}
         placeholderZip={60616}
+        loginData={loginData}
+        handleDelete={handleDelete}
       />
     </div>
   );
