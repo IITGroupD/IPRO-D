@@ -28,7 +28,8 @@ function Post({setBookList, bookList, loginData}) {
       image: "img"
     }
     console.log(bookObj)
-
+    setnewBookprice('')
+    setBookname('')
     books
       .create(bookObj)
       .then(book => {
