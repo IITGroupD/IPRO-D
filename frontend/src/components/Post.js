@@ -1,28 +1,24 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import books from '../modules/books'
-function Post({setBookList, bookList}) {
+function Post({setBookList, bookList, loginData}) {
   const [newBookname, setBookname] = useState('')
   const [newBookprice, setnewBookprice] = useState('')
  
-
   const handleChangeBookname = (event) => {
     console.log("book selected: ", event.target.value)
     setBookname(event.target.value)
   }
+
   const handleChangeBookprice = (event) => {
-    
     setnewBookprice(event.target.value)
   }
-
- 
-
-
 
   const addBook = (event) =>{
     event.preventDefault()
     const bookObj = {
       sellerName: 'janeDoe',
+      email: loginData.email,
       bookName: newBookname,
       price: newBookprice,
       author: 'dummy author',
@@ -34,11 +30,11 @@ function Post({setBookList, bookList}) {
     console.log(bookObj)
 
     books
-    .create(bookObj)
-    .then(book => {
-      console.log('A new book has created!')
-      setBookList(bookList.concat(book));
-    })
+      .create(bookObj)
+      .then(book => {
+        console.log('A new book has created!')
+        setBookList(bookList.concat(book));
+      })
   }
 
     return (
