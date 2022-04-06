@@ -17,7 +17,7 @@ function Post({setBookList, bookList, loginData}) {
   const addBook = (event) =>{
     event.preventDefault()
     const bookObj = {
-      sellerName: 'janeDoe',
+      sellerName: loginData.name,
       email: loginData.email,
       bookName: newBookname,
       price: newBookprice,

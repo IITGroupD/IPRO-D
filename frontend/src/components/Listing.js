@@ -11,7 +11,6 @@ export default function Listing(props){
 
     return(
         <div className='item'>
-            {loginData && <button onClick={handleClick}>Delete</button>}
             <Card style={{ width: '18rem', cursor : 'pointer' }} >
                 <Card.Img variant="top" src={`/${book.bookName.toLowerCase()}.JPG`} width="400" height="400" />
                 <Card.Body>
@@ -21,7 +20,7 @@ export default function Listing(props){
                      Posted by: {book.sellerName}
                     </Card.Text>
                     <Button variant="primary">See further details</Button>
-                    <Button variant="secondary" onClick={handleClick}>Delete</Button>
+                    <Button variant="secondary" disabled={loginData && book.email === loginData.email ? false : true}onClick={handleClick}>Delete</Button>
                 </Card.Body>
                 </Card>
         </div>
