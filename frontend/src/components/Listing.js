@@ -13,7 +13,7 @@ export default function Listing(props){
         <div className='item'>
             {loginData && <button onClick={handleClick}>Delete</button>}
             <Card style={{ width: '18rem', cursor : 'pointer' }} >
-                <Card.Img variant="top" src={`/${book.bookName.toLowerCase()}.JPG`} />
+                <Card.Img variant="top" src={`/${book.bookName.toLowerCase()}.JPG`} width="400" height="400" />
                 <Card.Body>
                     <Card.Title>{book.bookName}</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">${book.price}</Card.Subtitle>
