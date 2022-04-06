@@ -28,6 +28,7 @@ app.post('/api/books', (req, res) => {
   const body = req.body
   const book = new Book({
     sellerName: body.sellerName,
+    email: body.email,
     bookName: body.bookName,
     price: body.price,
     author: body.author,

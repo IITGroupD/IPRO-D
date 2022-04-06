@@ -59,7 +59,7 @@ function App() {
         ? 
           (
             <div>
-              <h3>You logged in as {loginData.email}</h3>
+              <h3>{`Hi, ${loginData.name}!`}</h3>
               <button onClick={handleLogOut}>Logout</button>
             </div>
           )
