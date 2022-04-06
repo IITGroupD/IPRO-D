@@ -1,13 +1,14 @@
 .filter{
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 0px  #d4d3d3;
-  border: 1px solid #333333 ;
+  box-shadow: 5px 0px  #9ddbf3;
+  border: 1px solid #b7e2f3 ;
   height: 80vh;
-  margin: 20px;
+  margin: 10px;
   padding: 0 20px;
   border-radius: 5px;
   align-items: center;
+  background: #bee0fc;
   text-align: center;
   justify-content: space-around;
 }

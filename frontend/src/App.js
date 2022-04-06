@@ -17,7 +17,11 @@ function App() {
     books.getAll()
       .then(books => setBookList(books))
   }, [])
-
+  var lst = bookList.map(book => parseFloat(book.price))
+  console.log(lst)
+  var maxPrice = Math.max(lst)
+  console.log(maxPrice)
+  
   const handleDelete = id => {
     books.remove(id)
       .then(() => setBookList(bookList.filter(book => book.id !== id)))
