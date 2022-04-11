@@ -26,6 +26,20 @@ function App() {
         console.log(e)
       })
   } 
+
+  const handleUpdate = (updatedBook) => {
+    books.update(updatedBook)
+      .then(updatedBook => {
+        setBookList(bookList.map(book => 
+          book.id !== updatedBook.id
+            ? book
+            : updatedBook))
+      })
+      .catch(e => {
+        alert('Error: update not successful')
+        console.log(e)
+      })
+  }
   
   const handleChange = event =>{
     setValue(parseInt(event.target.value))
@@ -85,6 +99,7 @@ function App() {
         placeholderZip={60616}
         loginData={loginData}
         handleDelete={handleDelete}
+        handleUpdate={handleUpdate}
       />
     </div>
   );
