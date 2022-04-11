@@ -36,7 +36,7 @@ export default function Listing(props){
     return(
         <div className='item'>
             <Card style={{ width: '18rem', cursor : 'pointer' }} >
-                <Card.Img variant="top" src={`/${book.bookName.toLowerCase()}.JPG`} />
+                <Card.Img variant="top" src={`/${book.bookName.toLowerCase()}.JPG`} width="400" height="400" />
                 <Card.Body>
                     <Card.Title>{book.bookName}</Card.Title>
                     {clicked 
