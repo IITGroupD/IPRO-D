@@ -14,7 +14,9 @@ export default function Listing(props){
     }
 
     const handleClick = () => {
-        setClicked(true)
+        if (loginData.email === book.email) {
+            setClicked(true)
+        }
     }
 
     const handleChange = (e) => {
