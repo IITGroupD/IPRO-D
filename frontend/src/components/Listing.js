@@ -28,6 +28,11 @@ export default function Listing(props){
         setClicked(false)
     }
 
+    const handleCancel = () => {
+        setClicked(false)
+        setNewPrice()
+    }
+
     return(
         <div className='item'>
             <Card style={{ width: '18rem', cursor : 'pointer' }} >
@@ -36,7 +41,8 @@ export default function Listing(props){
                     <Card.Title>{book.bookName}</Card.Title>
                     {clicked 
                         ? [<input key={book.id + "1"} onChange={handleChange} style={{marginBottom: '0.5rem'}}></input>, 
-                           <Button key={book.id + "2"} variant="primary" onClick={handleSubmit}>Update</Button>]
+                           <Button key={book.id + "2"} variant="primary" onClick={handleSubmit}>Update</Button>,
+                           <Button variant="secondary" onClick={handleCancel}>Cancel</Button>]
                         : <Card.Subtitle className="mb-2 text-muted" onClick={handleClick}>${book.price}</Card.Subtitle>}
                     <Card.Text>
                      Posted by: {book.sellerName}
