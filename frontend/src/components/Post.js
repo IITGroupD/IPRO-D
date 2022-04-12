@@ -52,6 +52,14 @@ function Post({setBookList, bookList, loginData}) {
             <option value = "Mister Nice">Mister Nice</option>
             <option value = "Sealed with a Kiss">Sealed with a Kiss</option>
             <option value = "Storms of Solaris">Storms of Solaris</option>
+            <option value = "The Wailing Painting">The Wailing Painting</option>
+            <option value = "The Call of the Angels">The Call of the Angels</option>
+            <option value = "Daughter of the Rose">Daughter of the Rose</option>
+            <option value = "Fog of the Heart">Fog of the Heart</option>
+            <option value = "Clear Blue Sky">Clear Blue Sky</option>
+            <option value = "Axe and the Wolf">Axe and the Wolf</option>
+            <option value = "Outside the Storm">OutSide the Storm</option>
+            <option value = "The Wall and the Flower">The Wall and the Flower</option>
             </select>
         </label>
         <div>
