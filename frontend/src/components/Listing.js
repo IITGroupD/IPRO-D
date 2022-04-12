@@ -43,7 +43,8 @@ export default function Listing(props){
                         ? [<input key={book.id + "1"} onChange={handleChange} style={{marginBottom: '0.5rem'}}></input>, 
                            <Button key={book.id + "2"} variant="primary" onClick={handleSubmit}>Update</Button>,
                            <Button variant="secondary" onClick={handleCancel}>Cancel</Button>]
-                        : <Card.Subtitle className="mb-2 text-muted" onClick={handleClick}>${book.price}</Card.Subtitle>}
+                        : <Card.Subtitle className="mb-2 text-muted">${book.price} <img src='/edit.png' alt='edit icon' onClick={handleClick} className={loginData && 'imgStyle'}></img></Card.Subtitle>
+                    }
                     <Card.Text>
                      Posted by: {book.sellerName}
                     </Card.Text>
