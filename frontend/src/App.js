@@ -17,6 +17,8 @@ function App() {
     books.getAll()
       .then(books => setBookList(books))
   }, [])
+
+  
   var lst = bookList.map(book => parseFloat(book.price))
   console.log(lst)
   var maxPrice = Math.max(lst)
@@ -47,6 +49,7 @@ function App() {
   
   const handleChange = event =>{
     setValue(parseInt(event.target.value))
+ 
   }
   
   const handleChangeDistance = event =>{
