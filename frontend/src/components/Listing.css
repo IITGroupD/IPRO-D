@@ -2,3 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+img {
+  width: 1rem;
+}
+
+.imgStyle:hover {
+  box-shadow: 1px 1px 4px 1px;
+}
