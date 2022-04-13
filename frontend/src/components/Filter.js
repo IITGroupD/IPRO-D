@@ -18,7 +18,7 @@ export default function Filter(props){
             <div>
             Distance
             <FilterSlider 
-                initValue = {0}
+                initValue = {100}
                 minValue = {0}
                 maxValue = {100}
                 handleChange = {handleChangeDistance}
