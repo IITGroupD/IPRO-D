@@ -1,7 +1,9 @@
 import React from "react";
 import './FilterSlider.css'
+import useState from 'react';
 // need to import the component of listing
 const FilterSlider = ({initValue, minValue, maxValue, handleChange}) => {
+    
     
     return (
         <div>
@@ -16,6 +18,8 @@ const FilterSlider = ({initValue, minValue, maxValue, handleChange}) => {
             
             onMouseUp = {handleChange}/>
             {' '+ maxValue}
+
+            
             
         </div>
     );
