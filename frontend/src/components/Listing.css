@@ -3,10 +3,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
-img {
+.icon{
   width: 1rem;
 }
 
-.imgStyle:hover {
+.icon:hover {
+  width: 1rem;
   box-shadow: 1px 1px 4px 1px;
 }
