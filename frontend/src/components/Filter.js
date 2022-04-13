@@ -12,7 +12,7 @@ export default function Filter(props){
             <div>
             Price
             <FilterSlider 
-                initValue = {100}
+                initValue = {300}
                 minValue = {0}
                 maxValue = {300}
                 handleChange = {handleChange}
