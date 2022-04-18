@@ -5,7 +5,6 @@ import SearchBar from './components/SearchBar';
 import Filter from './components/Filter';
 import books from './modules/books';
 import React, { useState, useEffect } from 'react';
-import GoogleLogin from 'react-google-login'
 import Navbar from './components/Navbar';
 function App() {
   const [bookList, setBookList] = useState([])
