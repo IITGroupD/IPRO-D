@@ -76,26 +76,12 @@ function App() {
       <img src = {'/bb_1.png'} alt = "Logo"/>
       {loginData && <Post setBookList={setBookList} bookList={bookList} loginData={loginData}/>}
       <SearchBar />
-      {loginData 
-        ? 
-          (
-            <div>
-              <h3>{`Hi, ${loginData.name}!`}</h3>
-              <button onClick={handleLogOut}>Logout</button>
-            </div>
-          )
-        : 
-          (
-            <GoogleLogin
-              clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
-              buttonText="Log in with Google"
-              onSuccess={handleLogin}
-              onFailure={handleFailure}
-              cookiePolicy={'single_host_origin'}>   
-            </GoogleLogin>
-          )
-      }
-      <Navbar/>
+      <Navbar 
+        loginData={loginData} 
+        handleLogOut={handleLogOut} 
+        handleLogin={handleLogin} 
+        handleFailure={handleFailure}
+      />
       <Filter 
         handleChangeDistance={handleChangeDistance}
         handleChange={handleChange}
