@@ -57,8 +57,8 @@ function App() {
 
   const handleLogin = async (googleData) => {
     setLoginData({
-      name: googleData.Du.tf,
-      email: googleData.Du.tv
+      name: googleData.Lu.tf,
+      email: googleData.Lu.Bv
     })
   }
 
@@ -73,7 +73,6 @@ function App() {
   return (
     <div className="grid-wrapper">
       {loginData && <Post setBookList={setBookList} bookList={bookList} loginData={loginData}/>}
-      <SearchBar />
       <Navbar 
         loginData={loginData} 
         handleLogOut={handleLogOut} 
