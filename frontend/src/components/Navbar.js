@@ -8,7 +8,7 @@ const Navbar = ({loginData, handleLogOut, handleLogin, handleFailure}) => {
     return (
         <div className="Navbar">
             <img src={image} alt="" className="logo"/>
-            <input  type="text" classNameame="search" placeholder="Search books.." />
+            <input  type="text" className="search" placeholder="Search books.." />
             <LogIn
                 loginData={loginData} 
                 handleLogOut={handleLogOut} 
