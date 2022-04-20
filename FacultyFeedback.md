@@ -68,5 +68,11 @@
 - Make sure to pull, push and merge
 
 ## Week 14 ##
+- Every team member needs to complete the peer review survey before the end of class - https://forms.gle/UFVs9smkmLVf7KRZ8
+- Final presentation template: https://github.com/mschray/IPro497Sample/blob/main/Course%20Content/Final%20Presentation%20Template.pptx
+- Nice personas and tie ins to scenarios
+- Google app auth is nice
+- You have to upload images you won't have all the ones you need on your file system
+- Mobile query - think responsive app 
 
 ## Week 15 ##
