@@ -3,7 +3,7 @@ import React from 'react'
 import './Display.css'
 
 export default function Display({ books, value, distance, placeholderZip, loginData, handleDelete, handleUpdate }){
-    const priceFilteredBooks = (value === 100) ? books : books.filter(book => (parseFloat(book.price) <= value).reverse()) 
+    const priceFilteredBooks = (value === 100) ? books : books.filter(book => (parseFloat(book.price) <= value)) 
     const zipCodeData = require('zipcode-city-distance')
     const distanceFilteredBooks = (distance === 100) ? books : books.filter(book => (parseInt(zipCodeData.zipCodeDistance(placeholderZip, parseInt(book.zip), 'M')) <= distance))
     return (
