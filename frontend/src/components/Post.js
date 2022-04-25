@@ -35,6 +35,7 @@ function Post({setBookList, bookList, loginData}) {
       .then(book => {
         console.log('A new book has created!')
         setBookList(bookList.concat(book));
+        console.log(bookList)
       })
   }
 
@@ -45,6 +46,7 @@ function Post({setBookList, bookList, loginData}) {
           Book Name:
           <select name="selectList" value={newBookname} onChange={handleChangeBookname} >
             <option value = ""></option>
+            <option value = "Psychology 101">Psychology 101</option>
             <option value = "2938 Turncoat">2938 Turncoat</option>
             <option value = "Elysium Firing">Elysium Firing</option>
             <option value = "Equinox of Kaus">Equinox of Kaus</option>
