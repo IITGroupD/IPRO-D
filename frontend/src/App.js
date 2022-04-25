@@ -84,7 +84,7 @@ function App() {
         handleChange={handleChange}
       />
       <Display 
-        books={bookList.reverse()}
+        books={bookList}
         value={value}
         distance={distance}
         placeholderZip={60616}
